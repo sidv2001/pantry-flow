@@ -1,0 +1,13 @@
+# Roadmap: earn each new step
+
+This is an **applied human–AI collaboration project over time**. Each milestone should reduce planning effort while keeping corrections and final choices with the cook. There are no measured user outcomes yet.
+
+| Stage | Scope | Gate before calling it ready |
+| --- | --- | --- |
+| **Shipped first slice** | Manual inventory by location, ten original measured recipes, explainable exact/swap/missing ranking, confirmed meal, editable quantity-based shopping, browser persistence and a conditional freezer reminder. | Matching, storage and DOM flow tests; explicit swap choice and date separation. |
+| **Next: everyday reliability** | Better unit entry and ingredient correction, optional preference controls, stock-use logging, and keyboard/screen-reader evaluation with people using the app. | Real-task feedback and safe defaults; preferences must not imply allergy safety. |
+| **Later: assisted entry** | Optional, user-corrected receipt/photo text recognition; product lookup only with source attribution and rights review. | Permission before capture or transfer, a correction screen, and a documented provenance/retention policy. |
+| **Later: larger matching** | Evaluate identifiers/ontology and local retrieval against messy ingredient names. | Repeatable relevance tests, transparent explanations and rights-cleared catalog data. |
+| **Later: proactive help** | Opt-in voice, shopping nudges and preparation reminders, including a carefully scoped defrost planning flow. | Clear triggers, easy dismissal, human confirmation and review against food-handling guidance; no automatic safe-to-eat claims. |
+
+Technical research threads: [ML Kit guides](https://developers.google.com/ml-kit/guides) and [text recognition v2](https://developers.google.com/ml-kit/vision/text-recognition/v2) for possible supported-device OCR; [Open Food Facts API](https://openfoodfacts.github.io/openfoodfacts-server/api/) and [terms](https://world.openfoodfacts.org/terms-of-use) for conditional product data; [FoodOn](https://github.com/FoodOntology/foodon), [SQLite FTS5](https://sqlite.org/fts5.html) and [TF-IDF](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html) as candidate matching references; the FDA's [storage](https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely) and [handling](https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling) guidance for safety boundaries. [grocy](https://github.com/grocy/grocy) and [Mealie](https://github.com/mealie-recipes/mealie) remain ecosystem references, not source-code or asset inputs.

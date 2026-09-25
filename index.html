@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f4ec" />
+    <meta name="description" content="A local-first pantry-to-meal starter. Record what you have, compare original recipes, and make an editable shopping list." />
+    <title>PantryFlow — a calmer path to dinner</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="#main" aria-label="PantryFlow home"><span class="brand-mark" aria-hidden="true">p<span>f</span></span>PantryFlow</a>
+        <nav aria-label="Main navigation">
+          <a href="#inventory">Inventory</a>
+          <a href="#meals">Meals</a>
+          <a href="#shopping">Shopping</a>
+        </nav>
+        <span class="header-note">A small, local-first starter</span>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <p class="eyebrow">LESS PLANNING FRICTION · MORE ROOM TO COOK</p>
+          <h1 id="hero-heading">A calmer path from <em>what&rsquo;s here</em> to what&rsquo;s for dinner.</h1>
+          <p class="hero-lede">Start with the food you have. See why a meal fits, what could stand in, and what still belongs on your list. The decisions stay with you.</p>
+          <a class="button button-primary" href="#inventory">Start with your pantry <span aria-hidden="true">↗</span></a>
+          <p class="hero-footnote">Manual entry · saved in this browser · no account or automatic uploads</p>
+        </div>
+
+        <figure class="flow-figure">
+          <svg class="flow-svg" viewBox="0 0 600 356" role="img" aria-labelledby="flow-title flow-desc" focusable="false">
+            <title id="flow-title">The PantryFlow planning loop</title>
+            <desc id="flow-desc">Record pantry items, compare meals, build a shopping list, and optionally plan safe handling for freezer ingredients. After cooking, update inventory yourself.</desc>
+            <defs>
+              <marker id="flow-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M1 1 L9 5 L1 9" fill="none" stroke="#47715b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+              </marker>
+            </defs>
+            <rect x="10" y="10" width="580" height="336" rx="30" fill="#f3eee3" />
+            <circle cx="515" cy="43" r="75" fill="#e9e1cf" opacity=".65" />
+            <circle cx="80" cy="325" r="83" fill="#e5eddf" opacity=".75" />
+            <path d="M187 132 H215 M377 132 H405 M298 204 V240" class="flow-arrow" marker-end="url(#flow-arrow)" />
+            <path d="M503 209 V306 H94 V212" class="flow-return" marker-end="url(#flow-arrow)" />
+
+            <g class="flow-node">
+              <rect x="30" y="68" width="157" height="140" rx="19" fill="#fffdf7" stroke="#d6d8c9" />
+              <circle cx="58" cy="98" r="16" fill="#e4eddc" />
+              <text x="58" y="103" class="flow-number">01</text>
+              <path d="M81 111 H139 M87 121 V143 H135 V121 M96 126 V139 M109 126 V139 M122 126 V139 M84 143 H138" fill="none" stroke="#42715a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+              <text x="108" y="167" class="flow-label">Inventory</text>
+              <text x="108" y="187" class="flow-caption">what you have</text>
+            </g>
+            <g class="flow-node">
+              <rect x="220" y="68" width="157" height="140" rx="19" fill="#fffdf7" stroke="#d6d8c9" />
+              <circle cx="248" cy="98" r="16" fill="#f9e5d5" />
+              <text x="248" y="103" class="flow-number">02</text>
+              <path d="M275 119 H323 M282 122 V139 Q299 152 316 139 V122 M291 114 Q299 109 307 114 M297 103 V109" fill="none" stroke="#ba684a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+              <text x="298" y="167" class="flow-label">Meal</text>
+              <text x="298" y="187" class="flow-caption">your choice</text>
+            </g>
+            <g class="flow-node">
+              <rect x="410" y="68" width="157" height="140" rx="19" fill="#fffdf7" stroke="#d6d8c9" />
+              <circle cx="438" cy="98" r="16" fill="#e4eddc" />
+              <text x="438" y="103" class="flow-number">03</text>
+              <path d="M467 111 H511 V145 H467 Z M475 121 L480 126 L487 117 M492 122 H503 M475 136 L480 141 L487 132 M492 137 H503" fill="none" stroke="#42715a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+              <text x="488" y="167" class="flow-label">Shopping</text>
+              <text x="488" y="187" class="flow-caption">edit the gaps</text>
+            </g>
+            <g>
+              <rect x="206" y="246" width="184" height="59" rx="17" fill="#deeadf" stroke="#b6cbbb" />
+              <path d="M232 263 V287 M220 275 H244 M224 267 L240 283 M240 267 L224 283" fill="none" stroke="#42715a" stroke-width="1.8" stroke-linecap="round" />
+              <text x="305" y="271" class="flow-optional">IF FREEZER STOCK</text>
+              <text x="305" y="290" class="flow-small">plan safe handling</text>
+            </g>
+          </svg>
+          <figcaption>One small decision at a time. The dotted return reminds you to update stock after cooking.</figcaption>
+          <ol class="flow-text" aria-label="Text version of the planning loop">
+            <li>Record ingredients and quantities by pantry, fridge or freezer.</li>
+            <li>Compare meals, then confirm one and any suggested swaps.</li>
+            <li>Edit the resulting shopping list; plan safe handling if using frozen food.</li>
+            <li>After cooking, update your inventory manually.</li>
+          </ol>
+        </figure>
+      </section>
+
+      <p id="notice" class="notice" role="status" aria-live="polite"></p>
+      <section id="fatal-error" class="fatal-error" role="alert" hidden>
+        <h2>Saved data needs your attention</h2>
+        <p id="fatal-message"></p>
+        <p>Your existing browser data has not been overwritten. Clearing it is permanent.</p>
+        <button id="reset-unreadable" class="button button-secondary" type="button">Clear saved data and start again</button>
+      </section>
+
+      <div id="app-content">
+        <section id="inventory" class="content-section" aria-labelledby="inventory-heading">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">01 / START WITH WHAT&rsquo;S HERE</p>
+              <h2 id="inventory-heading">Inventory by location</h2>
+            </div>
+            <p>Enter what you actually have. Known ingredient names match recipes; anything else can still live on your shelves.</p>
+          </div>
+          <div class="inventory-layout">
+            <div class="panel entry-panel">
+              <h3 id="inventory-form-heading">Add a pantry item</h3>
+              <form id="inventory-form">
+                <div class="field">
+                  <label for="inventory-name">Ingredient</label>
+                  <input id="inventory-name" name="name" type="text" list="known-ingredients" autocomplete="off" required maxlength="100" aria-describedby="name-hint" />
+                  <datalist id="known-ingredients"></datalist>
+                  <p id="name-hint" class="field-hint">Try a suggested name for matching, or write your own.</p>
+                </div>
+                <div class="field-pair">
+                  <div class="field">
+                    <label for="inventory-quantity">Amount</label>
+                    <input id="inventory-quantity" name="quantity" type="number" min="0.001" step="any" inputmode="decimal" required />
+                  </div>
+                  <div class="field">
+                    <label for="inventory-unit">Unit</label>
+                    <select id="inventory-unit" name="unit">
+                      <option value="g">g</option>
+                      <option value="kg">kg</option>
+                      <option value="ml">ml</option>
+                      <option value="l">l</option>
+                      <option value="each">each</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="inventory-location">Location</label>
+                  <select id="inventory-location" name="location">
+                    <option value="Pantry">Pantry</option>
+                    <option value="Fridge">Fridge</option>
+                    <option value="Freezer">Freezer</option>
+                  </select>
+                </div>
+                <fieldset class="date-fields">
+                  <legend>Dates, if you want them</legend>
+                  <div class="field-pair">
+                    <div class="field">
+                      <label for="label-date">Printed label date</label>
+                      <input id="label-date" name="labelDate" type="date" aria-describedby="date-hint" />
+                    </div>
+                    <div class="field">
+                      <label for="check-date">Your CHECK date</label>
+                      <input id="check-date" name="checkDate" type="date" aria-describedby="date-hint" />
+                    </div>
+                  </div>
+                  <p id="date-hint" class="field-hint">A CHECK date is your reminder, not an expiry or safety prediction. Keep it separate from the printed label.</p>
+                </fieldset>
+                <div class="button-row">
+                  <button id="inventory-submit" class="button button-primary" type="submit">Add to pantry</button>
+                  <button id="cancel-inventory-edit" class="button button-quiet" type="button" hidden>Cancel edit</button>
+                </div>
+              </form>
+            </div>
+            <div class="panel shelves-panel">
+              <div class="panel-heading">
+                <h3>Your shelves</h3>
+                <p id="inventory-count">0 items</p>
+              </div>
+              <div id="inventory-list"></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="meals" class="content-section" aria-labelledby="meals-heading">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">02 / SEE THE REASONING</p>
+              <h2 id="meals-heading">Meals that fit your pantry</h2>
+            </div>
+            <p>Sorted by fewest ingredients to buy, then smallest shortage, fewest suggested swaps, and shortest listed time. Quantities are for the listed servings.</p>
+          </div>
+          <p class="section-note">A swap is a suggestion, not an allergy or nutrition check. Review ingredients and labels yourself before confirming one.</p>
+          <div id="recipe-list" class="recipe-grid"></div>
+          <div id="recipe-detail" class="recipe-detail" aria-live="polite"></div>
+        </section>
+
+        <section id="shopping" class="content-section" aria-labelledby="shopping-heading">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">03 / CLOSE THE GAP</p>
+              <h2 id="shopping-heading">A list you can change</h2>
+            </div>
+            <p>Confirm a meal to make a quantity-based list. Add, edit, tick off or remove anything; your pantry is never deducted automatically.</p>
+          </div>
+          <div id="confirmed-meal"></div>
+          <div class="shopping-layout">
+            <div class="panel">
+              <div class="panel-heading">
+                <h3>Shopping list</h3>
+                <p id="shopping-count">0 items</p>
+              </div>
+              <div id="shopping-list"></div>
+            </div>
+            <div class="panel add-shopping-panel">
+              <h3>Add something else</h3>
+              <form id="shopping-form">
+                <div class="field">
+                  <label for="shopping-name">Item</label>
+                  <input id="shopping-name" name="name" type="text" required maxlength="100" />
+                </div>
+                <div class="field-pair">
+                  <div class="field">
+                    <label for="shopping-quantity">Amount</label>
+                    <input id="shopping-quantity" name="quantity" type="number" min="0.001" step="any" inputmode="decimal" required />
+                  </div>
+                  <div class="field">
+                    <label for="shopping-unit">Unit</label>
+                    <select id="shopping-unit" name="unit">
+                      <option value="each">each</option>
+                      <option value="g">g</option>
+                      <option value="kg">kg</option>
+                      <option value="ml">ml</option>
+                      <option value="l">l</option>
+                    </select>
+                  </div>
+                </div>
+                <button class="button button-primary" type="submit">Add to list</button>
+              </form>
+              <p class="field-hint">Your edits stay put until you confirm a meal again. Reconfirming replaces the list after a prompt.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <p class="footer-brand">PantryFlow <span>· an applied human–AI collaboration project</span></p>
+        <p>This first slice stays on this device. Check labels and food-handling guidance; a recorded amount does not establish that food is safe.</p>
+      </div>
+      <button id="clear-data" class="button button-quiet" type="button">Clear this browser&rsquo;s data</button>
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

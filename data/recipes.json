@@ -1,0 +1,192 @@
+[
+  {
+    "id": "apple-oat-bowl",
+    "title": "Apple & Peanut Oat Bowl",
+    "description": "Warm oats with crisp apple and a spoon of peanut butter.",
+    "servings": 2,
+    "minutes": 15,
+    "ingredients": [
+      { "ingredientId": "rolled-oats", "quantity": 80, "unit": "g" },
+      { "ingredientId": "milk", "quantity": 250, "unit": "ml" },
+      { "ingredientId": "apple", "quantity": 1, "unit": "each" },
+      { "ingredientId": "peanut-butter", "quantity": 20, "unit": "g" }
+    ],
+    "steps": [
+      "Slice the apple; set a few pieces aside for topping.",
+      "Simmer the oats with milk, stirring until tender according to the oat package.",
+      "Spoon into two bowls and add the apple and peanut butter."
+    ]
+  },
+  {
+    "id": "berry-yogurt-oats",
+    "title": "Berry Yogurt Oats",
+    "description": "A cool, mix-and-eat bowl with fruit and rolled oats.",
+    "servings": 2,
+    "minutes": 10,
+    "ingredients": [
+      { "ingredientId": "rolled-oats", "quantity": 60, "unit": "g" },
+      { "ingredientId": "yogurt", "quantity": 180, "unit": "g" },
+      { "ingredientId": "berries", "quantity": 100, "unit": "g" },
+      { "ingredientId": "banana", "quantity": 1, "unit": "each" }
+    ],
+    "steps": [
+      "Stir the oats into the yogurt and divide between two bowls.",
+      "Slice the banana and add it with the berries.",
+      "Eat promptly or keep chilled according to the ingredient labels."
+    ]
+  },
+  {
+    "id": "lemony-chickpea-rice",
+    "title": "Lemony Chickpea Rice",
+    "description": "Rice, greens and chickpeas brightened with lemon.",
+    "servings": 2,
+    "minutes": 30,
+    "ingredients": [
+      { "ingredientId": "rice", "quantity": 120, "unit": "g" },
+      { "ingredientId": "chickpeas", "quantity": 180, "unit": "g" },
+      { "ingredientId": "spinach", "quantity": 80, "unit": "g" },
+      { "ingredientId": "lemon", "quantity": 1, "unit": "each" },
+      { "ingredientId": "olive-oil", "quantity": 15, "unit": "ml" }
+    ],
+    "steps": [
+      "Cook the dry rice according to its package.",
+      "Warm the drained chickpeas and spinach in olive oil until the greens wilt.",
+      "Fold through the rice and finish with lemon juice."
+    ]
+  },
+  {
+    "id": "carrot-lentil-skillet",
+    "title": "Carrot & Red Lentil Skillet",
+    "description": "A soft, savory lentil pan with carrot and garlic.",
+    "servings": 2,
+    "minutes": 30,
+    "ingredients": [
+      { "ingredientId": "red-lentils", "quantity": 140, "unit": "g" },
+      { "ingredientId": "carrot", "quantity": 160, "unit": "g" },
+      { "ingredientId": "onion", "quantity": 80, "unit": "g" },
+      { "ingredientId": "garlic", "quantity": 2, "unit": "each" },
+      { "ingredientId": "olive-oil", "quantity": 15, "unit": "ml" }
+    ],
+    "steps": [
+      "Dice the carrot and onion; mince the garlic.",
+      "Soften the vegetables in olive oil, then add rinsed red lentils and water as directed on the lentil package.",
+      "Simmer until the lentils are tender, stirring and adding water as needed."
+    ]
+  },
+  {
+    "id": "crunchy-bean-wraps",
+    "title": "Crunchy White Bean Wraps",
+    "description": "Cool cucumber and tomato tucked into bean-filled tortillas.",
+    "servings": 2,
+    "minutes": 15,
+    "ingredients": [
+      { "ingredientId": "tortilla", "quantity": 2, "unit": "each" },
+      { "ingredientId": "white-beans", "quantity": 180, "unit": "g" },
+      { "ingredientId": "cucumber", "quantity": 120, "unit": "g" },
+      { "ingredientId": "tomato", "quantity": 120, "unit": "g" },
+      { "ingredientId": "yogurt", "quantity": 60, "unit": "g" }
+    ],
+    "steps": [
+      "Wash and dice the cucumber and tomato.",
+      "Mash the drained beans with the yogurt and spread over the tortillas.",
+      "Add the vegetables and fold into wraps; follow package handling guidance."
+    ]
+  },
+  {
+    "id": "spinach-tomato-pasta",
+    "title": "Spinach & Tomato Pasta",
+    "description": "A quick pasta with softened tomato and wilted greens.",
+    "servings": 2,
+    "minutes": 25,
+    "ingredients": [
+      { "ingredientId": "pasta", "quantity": 140, "unit": "g" },
+      { "ingredientId": "spinach", "quantity": 80, "unit": "g" },
+      { "ingredientId": "tomato", "quantity": 180, "unit": "g" },
+      { "ingredientId": "olive-oil", "quantity": 15, "unit": "ml" },
+      { "ingredientId": "garlic", "quantity": 2, "unit": "each" }
+    ],
+    "steps": [
+      "Cook the dry pasta according to its package; reserve a little cooking water.",
+      "Gently cook chopped tomato and garlic in olive oil, then wilt the spinach.",
+      "Toss with pasta and a splash of cooking water."
+    ]
+  },
+  {
+    "id": "pepper-bean-rice",
+    "title": "Pepper & Black Bean Rice",
+    "description": "A simple rice bowl with tender peppers and beans.",
+    "servings": 2,
+    "minutes": 30,
+    "ingredients": [
+      { "ingredientId": "rice", "quantity": 120, "unit": "g" },
+      { "ingredientId": "black-beans", "quantity": 180, "unit": "g" },
+      { "ingredientId": "bell-pepper", "quantity": 150, "unit": "g" },
+      { "ingredientId": "onion", "quantity": 80, "unit": "g" },
+      { "ingredientId": "olive-oil", "quantity": 15, "unit": "ml" }
+    ],
+    "steps": [
+      "Cook the dry rice according to its package.",
+      "Soften sliced pepper and onion in olive oil, then warm the drained beans.",
+      "Serve the vegetables and beans over the rice."
+    ]
+  },
+  {
+    "id": "creamy-pea-pasta",
+    "title": "Creamy Pea & Lemon Pasta",
+    "description": "Peas and yogurt make a bright, gently creamy pasta.",
+    "servings": 2,
+    "minutes": 25,
+    "ingredients": [
+      { "ingredientId": "pasta", "quantity": 140, "unit": "g" },
+      { "ingredientId": "frozen-peas", "quantity": 140, "unit": "g" },
+      { "ingredientId": "yogurt", "quantity": 90, "unit": "g" },
+      { "ingredientId": "lemon", "quantity": 1, "unit": "each" },
+      { "ingredientId": "olive-oil", "quantity": 10, "unit": "ml" }
+    ],
+    "steps": [
+      "Cook the pasta and peas according to their packages; drain, saving a little pasta water.",
+      "Off the heat, coat with yogurt, olive oil and lemon juice.",
+      "Loosen with reserved cooking water and serve."
+    ]
+  },
+  {
+    "id": "tofu-quinoa-bowl",
+    "title": "Tofu & Cucumber Quinoa Bowl",
+    "description": "Warm quinoa and tofu with a cool cucumber finish.",
+    "servings": 2,
+    "minutes": 30,
+    "ingredients": [
+      { "ingredientId": "quinoa", "quantity": 120, "unit": "g" },
+      { "ingredientId": "tofu", "quantity": 200, "unit": "g" },
+      { "ingredientId": "cucumber", "quantity": 140, "unit": "g" },
+      { "ingredientId": "carrot", "quantity": 100, "unit": "g" },
+      { "ingredientId": "olive-oil", "quantity": 15, "unit": "ml" },
+      { "ingredientId": "lemon", "quantity": 1, "unit": "each" }
+    ],
+    "steps": [
+      "Cook the dry quinoa according to its package.",
+      "Cook cubed tofu in olive oil following its package directions.",
+      "Wash and cut the cucumber and carrot; serve with quinoa and tofu and squeeze lemon over top."
+    ]
+  },
+  {
+    "id": "warm-bean-greens",
+    "title": "Warm White Beans & Greens",
+    "description": "Tomato-warmed beans and kale with toasted bread.",
+    "servings": 2,
+    "minutes": 20,
+    "ingredients": [
+      { "ingredientId": "white-beans", "quantity": 200, "unit": "g" },
+      { "ingredientId": "kale", "quantity": 100, "unit": "g" },
+      { "ingredientId": "tomato", "quantity": 180, "unit": "g" },
+      { "ingredientId": "garlic", "quantity": 2, "unit": "each" },
+      { "ingredientId": "olive-oil", "quantity": 15, "unit": "ml" },
+      { "ingredientId": "bread", "quantity": 2, "unit": "each" }
+    ],
+    "steps": [
+      "Soften chopped tomato and garlic in olive oil.",
+      "Add drained white beans and chopped kale; cook until the greens wilt and everything is heated through.",
+      "Toast the bread and serve alongside the beans."
+    ]
+  }
+]
